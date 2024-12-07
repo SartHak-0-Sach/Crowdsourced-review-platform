@@ -3,7 +3,7 @@ const router = express.Router();
 const Review = require('../models/Review');
 
 // Create a new review
-router.post('/', async (req, res) =>
+router.post('/business', async (req, res) =>
 {
     try
     {
